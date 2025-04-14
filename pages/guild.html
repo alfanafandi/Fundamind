@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guild</title>
+    <link rel="stylesheet" href="/assets/css/guild.css" />
+    <script src="/assets/js/guild.js" defer></script>
+  </head>
+  <body class="guild-background">
+    <!-- Karakter full body -->
+    <section class="guild-master-main">
+      <div class="guild-master" id="guildMaster">
+        <img
+          src="/assets/images/guild_master_in_an_idle_pose.png"
+          alt="Guild Master"
+        />
+      </div>
+
+      <!-- Tombol quest -->
+      <section class="quest">
+        <a href="/quest-details.html" class="quest-box"></a>
+      </section>
+    </section>
+
+    <div id="guildModal" class="modal hidden">
+      <div class="modal-content">
+        <img
+          src="/assets/images/half-body_portrait_of_a_guild_master.png"
+          alt="Guild Master Halfbody"
+          class="halfbody-image"
+        />
+        <div class="chat-box">
+          <p id="chatText">Welcome to the guild!</p>
+          <button id="nextChat">Next</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -431,3 +431,13 @@ body {
   cursor: pointer;
   z-index: 6;
 }
+
+.layer-door-house-b {
+  position: absolute;
+  left: 48%;
+  top: 113%;
+  width: 70px;
+  height: 120px;
+  cursor: pointer;
+  z-index: 6;
+}

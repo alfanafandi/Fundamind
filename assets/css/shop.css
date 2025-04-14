@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/bar_background_1440x1024.png"); /* Adjust path if necessary */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.shop-owner-main {
+  position: relative;
+  width: 60%;
+  height: 60%;
+  top: -14%;
+  right: -28%;
+  margin-left: auto;
+}
+
+.shop-owner img {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
