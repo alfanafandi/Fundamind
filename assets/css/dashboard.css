@@ -441,3 +441,13 @@ body {
   cursor: pointer;
   z-index: 6;
 }
+
+.layer-door-house-c {
+  position: absolute;
+  left: 91%;
+  top: 113%;
+  width: 70px;
+  height: 120px;
+  cursor: pointer;
+  z-index: 6;
+}

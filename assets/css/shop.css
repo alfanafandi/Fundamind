@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../images/bar_background_1440x1024.png"); /* Adjust path if necessary */
+  background-image: url("../images/bar_background_1440x1024.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,5 +23,21 @@ body {
   left: 5%;
   width: 120px;
   height: auto;
+  cursor: pointer;
+}
+
+.welcome-seller {
+  display: none;
+  position: absolute;
+  top: 250px;
+  left: -290px;
+  background: #fff;
+  color: #222;
+  padding: 24px 48px;
+  border-radius: 18px;
+  font-size: 1rem;
+  font-family: 'pixelifySans', sans-serif;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  z-index: 10;
   cursor: pointer;
 }
